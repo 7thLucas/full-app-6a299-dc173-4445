@@ -1,0 +1,65 @@
+<style>
+.mode-landscape .sl-grid { grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, 1fr); }
+.mode-portrait .sl-grid { grid-template-columns: 1fr; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12">
+
+    <!-- Header row -->
+    <div class="flex items-start justify-between mb-6">
+      <div>
+        <div class="inline-block mb-2">
+          <span class="font-bold tracking-widest uppercase rounded-full px-3 py-1" style="font-size:0.65rem;background:#EEF4F8;color:#1E4E6B;letter-spacing:0.12em">What It Does</span>
+        </div>
+        <h2 class="font-black" style="font-size:1.9rem;color:#1A2B3C;line-height:1.1">Core Features</h2>
+        <p style="font-size:0.82rem;color:#64748B;margin-top:0.35rem">Everything a shop owner needs to run production confidently — no guesswork, no spreadsheets.</p>
+      </div>
+      <!-- Persona chips -->
+      <div class="flex gap-2 flex-shrink-0 mt-1">
+        <span class="rounded-full px-4 py-1.5 font-semibold text-white" style="font-size:0.78rem;background:#1E4E6B">Shop Owner</span>
+        <span class="rounded-full px-4 py-1.5 font-semibold" style="font-size:0.78rem;background:#F1F5F9;color:#64748B">Manager</span>
+      </div>
+    </div>
+
+    <!-- Feature cards grid -->
+    <div class="sl-grid grid gap-4 flex-1">
+
+      <!-- Card 1: Flavor Inventory -->
+      <div class="rounded-2xl p-6 flex flex-col" style="background:#EEF4F8;border:1px solid #D0E4F0">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background:#1E4E6B">
+          <span style="font-size:19px">📦</span>
+        </div>
+        <h3 class="font-bold mb-2" style="font-size:0.95rem;color:#1A2B3C">Flavor Inventory Tracker</h3>
+        <p style="font-size:0.82rem;color:#4A5568;line-height:1.6">Live stock levels for every flavor. Track depletion rates and get automatic low-stock alerts before you run out on a busy day.</p>
+      </div>
+
+      <!-- Card 2: Daily Production Batches -->
+      <div class="rounded-2xl p-6 flex flex-col" style="background:#FFF8EE;border:1px solid #F5DDB8">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background:#E8904A">
+          <span style="font-size:19px">🍦</span>
+        </div>
+        <h3 class="font-bold mb-2" style="font-size:0.95rem;color:#1A2B3C">Daily Production Batch Log</h3>
+        <p style="font-size:0.82rem;color:#4A5568;line-height:1.6">Log each batch as it's made — flavor, quantity, timestamp. Build a production history that makes planning better every week.</p>
+      </div>
+
+      <!-- Card 3: Seasonal Trends -->
+      <div class="rounded-2xl p-6 flex flex-col" style="background:#F4FBF7;border:1px solid #C8E8D4">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background:#1E6B3C">
+          <span style="font-size:19px">📈</span>
+        </div>
+        <h3 class="font-bold mb-2" style="font-size:0.95rem;color:#1A2B3C">Seasonal Trend Analysis</h3>
+        <p style="font-size:0.82rem;color:#4A5568;line-height:1.6">Spot demand patterns by flavor, day of week, and season. Know which flavors peak in summer vs. winter before the rush arrives.</p>
+      </div>
+
+      <!-- Card 4: Smart Recommendations -->
+      <div class="rounded-2xl p-6 flex flex-col" style="background:#F8F4FF;border:1px solid #D8C8F0">
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center mb-4" style="background:#6B4EBB">
+          <span style="font-size:19px">💡</span>
+        </div>
+        <h3 class="font-bold mb-2" style="font-size:0.95rem;color:#1A2B3C">Smart Production Recommendations</h3>
+        <p style="font-size:0.82rem;color:#4A5568;line-height:1.6">Data-driven batch suggestions from your shop's own trends — what to make today and how much, so you waste less and sell more.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
