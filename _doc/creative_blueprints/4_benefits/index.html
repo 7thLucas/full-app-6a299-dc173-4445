@@ -1,0 +1,68 @@
+<style>
+.mode-landscape .sl-metrics { grid-template-columns: repeat(4, 1fr); }
+.mode-portrait .sl-metrics { grid-template-columns: repeat(2, 1fr); }
+.mode-landscape .sl-roi { flex-direction: row; align-items: center; gap: 3rem; }
+.mode-portrait .sl-roi { flex-direction: column; gap: 1.5rem; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col h-full p-12">
+
+    <!-- Header -->
+    <div class="mb-7">
+      <div class="inline-block mb-3">
+        <span class="font-bold tracking-widest uppercase rounded-full px-3 py-1" style="font-size:0.65rem;background:#EEF4F8;color:#1E4E6B;letter-spacing:0.12em">Business Impact</span>
+      </div>
+      <h2 class="font-black" style="font-size:1.9rem;color:#1A2B3C;line-height:1.1">Measurable Outcomes</h2>
+    </div>
+
+    <!-- Metric cards -->
+    <div class="sl-metrics grid gap-4 mb-5">
+
+      <div class="rounded-2xl p-5 text-center" style="background:#EEF4F8;border:1px solid #D0E4F0">
+        <p class="font-bold tracking-widest uppercase mb-2" style="font-size:0.62rem;color:#1E4E6B;letter-spacing:0.12em">Waste Reduction</p>
+        <p class="font-black mb-1" style="font-size:1.35rem;color:#1A2B3C;line-height:1.1">Less Scrap</p>
+        <p style="font-size:0.75rem;color:#64748B;line-height:1.55">Stop over-batching slow flavors by tracking what actually depletes day to day.</p>
+      </div>
+
+      <div class="rounded-2xl p-5 text-center" style="background:#FFF8EE;border:1px solid #F5DDB8">
+        <p class="font-bold tracking-widest uppercase mb-2" style="font-size:0.62rem;color:#E8904A;letter-spacing:0.12em">Stock Reliability</p>
+        <p class="font-black mb-1" style="font-size:1.35rem;color:#1A2B3C;line-height:1.1">Zero Out-of-Stocks</p>
+        <p style="font-size:0.75rem;color:#64748B;line-height:1.55">Low-stock alerts and trend data keep bestsellers on hand every single day.</p>
+      </div>
+
+      <div class="rounded-2xl p-5 text-center" style="background:#F4FBF7;border:1px solid #C8E8D4">
+        <p class="font-bold tracking-widest uppercase mb-2" style="font-size:0.62rem;color:#1E6B3C;letter-spacing:0.12em">Planning Accuracy</p>
+        <p class="font-black mb-1" style="font-size:1.35rem;color:#1A2B3C;line-height:1.1">Data-Driven Batches</p>
+        <p style="font-size:0.75rem;color:#64748B;line-height:1.55">Replace gut-feel with a production history that gets sharper every week.</p>
+      </div>
+
+      <div class="rounded-2xl p-5 text-center" style="background:#F8F4FF;border:1px solid #D8C8F0">
+        <p class="font-bold tracking-widest uppercase mb-2" style="font-size:0.62rem;color:#6B4EBB;letter-spacing:0.12em">Seasonal Edge</p>
+        <p class="font-black mb-1" style="font-size:1.35rem;color:#1A2B3C;line-height:1.1">Early Trend Signals</p>
+        <p style="font-size:0.75rem;color:#64748B;line-height:1.55">Spot rising flavors before the season peaks — stock up while others scramble.</p>
+      </div>
+
+    </div>
+
+    <!-- ROI Summary block -->
+    <div class="sl-roi flex rounded-2xl p-6" style="background:#1E4E6B">
+      <div class="flex-1">
+        <p class="font-black text-white mb-1" style="font-size:1.1rem">The Bottom Line</p>
+        <p style="font-size:0.82rem;color:#A8C8DC;line-height:1.65">
+          Every batch you make costs money. Every flavor you run dry costs a sale. ScoopTrack closes both gaps by turning your shop's own daily data into production decisions you can act on — today, every day.
+        </p>
+      </div>
+      <div class="flex gap-8 flex-shrink-0">
+        <div class="text-center">
+          <p class="font-black text-white" style="font-size:1.4rem">↑ Revenue</p>
+          <p style="font-size:0.7rem;color:#A8C8DC;margin-top:0.2rem">Popular flavors always ready</p>
+        </div>
+        <div class="text-center">
+          <p class="font-black text-white" style="font-size:1.4rem">↓ Waste</p>
+          <p style="font-size:0.7rem;color:#A8C8DC;margin-top:0.2rem">Batch only what will sell</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
