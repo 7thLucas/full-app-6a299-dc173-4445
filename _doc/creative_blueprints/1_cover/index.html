@@ -1,0 +1,58 @@
+<style>
+.mode-landscape .sl-layout { flex-direction: row; }
+.mode-portrait .sl-layout { flex-direction: column; }
+.mode-landscape .sl-content { width: 54%; }
+.mode-portrait .sl-content { width: 100%; }
+.mode-landscape .sl-visual { width: 46%; }
+.mode-portrait .sl-visual { height: 38%; width: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: content column -->
+    <div class="sl-content flex flex-col justify-between p-12">
+      <div>
+        <!-- Brand mark -->
+        <div class="flex items-center gap-2 mb-10">
+          <div class="w-9 h-9 rounded-xl flex items-center justify-center" style="background:#1E4E6B">
+            <span style="color:#ffffff;font-size:15px;font-weight:900;line-height:1">S</span>
+          </div>
+          <span class="font-bold tracking-widest uppercase" style="font-size:0.7rem;color:#1E4E6B;letter-spacing:0.18em">ScoopTrack</span>
+        </div>
+
+        <!-- Category chip -->
+        <div class="inline-block mb-5">
+          <span class="font-semibold tracking-widest uppercase rounded-full px-3 py-1" style="font-size:0.65rem;background:#FFF3E8;color:#E8904A;letter-spacing:0.12em">Ice Cream Shop Operations</span>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="font-black leading-none mb-6" style="font-size:3rem;color:#1A2B3C;line-height:1.05">
+          Stop Guessing.<br/>Start Stocking<br/>
+          <span style="color:#E8904A">What Sells.</span>
+        </h1>
+
+        <!-- Tagline -->
+        <p class="leading-relaxed" style="font-size:1rem;color:#4A5568;max-width:360px;line-height:1.65">
+          Flavor inventory, daily production batches, and seasonal demand trends — one focused tool for ice cream shop owners who want less waste and more of the right flavors always ready.
+        </p>
+      </div>
+
+      <!-- Attribution -->
+      <div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: visual -->
+    <div class="sl-visual relative overflow-hidden">
+      <img
+        src="https://api-stag.qb-deck.quantumbyte.ai/common/image-generation?prompt=vibrant%20ice%20cream%20shop%20display%20case%20filled%20with%20colorful%20flavors%20in%20pristine%20metal%20containers%2C%20warm%20inviting%20light%2C%20premium%20editorial%20photography%2C%20shallow%20depth%20of%20field"
+        alt="Ice cream shop display"
+        class="w-full h-full object-cover"
+      />
+      <!-- soft left fade so text column bleeds in cleanly -->
+      <div class="absolute inset-y-0 left-0 w-20" style="background:linear-gradient(to right,#ffffff,transparent)"></div>
+    </div>
+
+  </div>
+</section>
